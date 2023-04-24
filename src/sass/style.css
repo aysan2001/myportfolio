@@ -1,0 +1,566 @@
+.bg-dark * .sari {
+  background-color: black;
+  color: white;
+}
+.bg-dark * .sari:hover {
+  color: white;
+}
+.bg-dark * .fa-headset {
+  font-size: 50px;
+  color: #a8741a;
+}
+.bg-dark * span {
+  display: block;
+  font-family: "Philosopher", sans-serif;
+}
+.bg-dark * span:hover {
+  color: #a8741a;
+}
+.bg-dark * .service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg-dark * .service .free {
+  font-size: 35px;
+  color: #a8741a;
+}
+.bg-dark * .service .promo-title {
+  margin: -1px 0 7px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.bg-dark * .luis {
+  margin-left: 580px;
+  border-radius: 50%;
+  border: #a8741a;
+}
+.bg-dark * .gizlim {
+  position: relative;
+  box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+  -webkit-box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+  -moz-box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+}
+.bg-dark * .gizlim:hover .gizli {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.bg-dark * .gizli {
+  display: none;
+}
+.bg-dark * .gizli .box {
+  background-color: #e9ecef;
+  padding: 20px;
+}
+.bg-dark * .category-info .box-info .sub-title {
+  font-size: 14px;
+  font-family: Jost;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #3e9f8e;
+  margin-bottom: 4px;
+}
+.bg-dark * .category-info .box-info .title-collection {
+  font-size: 22px;
+  font-family: Marcellus;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: white;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.bg-dark * .category-info .box-info .title-collection:hover {
+  color: #3e9f8e;
+}
+.bg-dark * .banner-center .title-top {
+  font-family: Jost;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #3e9f8e;
+}
+.bg-dark * .banner-center .title {
+  font-family: Marcellus;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 37px;
+}
+.bg-dark * .banner-center .title-bot {
+  font-family: Jost;
+  font-weight: 400;
+  color: white;
+}
+.bg-dark * .banner-center .button-shop {
+  font-family: Jost;
+  display: inline-block;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  color: #ffffff;
+  background: #3e9f8e;
+  text-decoration: none;
+}
+.bg-dark * .fa-star {
+  color: #fdbe50;
+}
+.bg-dark * .footer-bg {
+  background-color: #111;
+}
+.bg-dark * .footer-bg .footer-dark {
+  color: white;
+}
+.bg-dark * .login {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-dark * .login .loginBox {
+  width: 70%;
+  height: 400px;
+  background-color: #3e9f8e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 22px;
+  border-radius: 15px;
+}
+.bg-dark * .login .loginBox .divlogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-dark * .login .loginBox .divlogin input {
+  border-radius: 15px;
+  border: none;
+  padding-left: 20px;
+  height: 50px;
+}
+.bg-dark * .login .loginBox .logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-dark * .login .loginBox button {
+  border: none;
+  border-radius: 8%;
+  padding: 10px 10px;
+}
+
+.sari {
+  background-color: black;
+  color: white;
+}
+
+.sari:hover {
+  color: white;
+}
+
+.fa-headset {
+  font-size: 50px;
+  color: #a8741a;
+}
+
+span {
+  display: block;
+  font-family: "Philosopher", sans-serif;
+}
+
+span:hover {
+  color: #a8741a;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service .free {
+  font-size: 35px;
+  color: #a8741a;
+}
+.service .promo-title {
+  margin: -1px 0 7px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.luis {
+  margin-left: 580px;
+  border-radius: 50%;
+  border: #a8741a;
+}
+
+.gizlim {
+  position: relative;
+  box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+  -webkit-box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+  -moz-box-shadow: 10px 10px 23px -5px rgba(66, 58, 58, 0.75);
+}
+.gizlim:hover .gizli {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.gizli {
+  display: none;
+}
+.gizli .box {
+  background-color: #e9ecef;
+  padding: 20px;
+}
+
+.category-info .box-info .sub-title {
+  font-size: 14px;
+  font-family: Jost;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 4px;
+}
+.category-info .box-info .title-collection {
+  font-size: 22px;
+  font-family: Marcellus;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #111;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.category-info .box-info .title-collection:hover {
+  color: #3e9f8e;
+}
+
+.banner-center .title-top {
+  font-family: Jost;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #3e9f8e;
+}
+.banner-center .title {
+  font-family: Marcellus;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 37px;
+}
+.banner-center .title-bot {
+  font-family: Jost;
+  font-weight: 400;
+  color: black;
+}
+.banner-center .button-shop {
+  font-family: Jost;
+  display: inline-block;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  color: #ffffff;
+  background: #3e9f8e;
+  text-decoration: none;
+}
+
+.fa-star {
+  color: #fdbe50;
+}
+
+.footer-bg {
+  background-image: url("../img/shape01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e9ecef;
+}
+.footer-bg .footer-dark {
+  color: black;
+}
+
+.login {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .loginBox {
+  width: 70%;
+  height: 400px;
+  background-color: #3e9f8e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 22px;
+  border-radius: 15px;
+}
+.login .loginBox .divlogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login .loginBox .divlogin input {
+  border-radius: 15px;
+  border: none;
+  padding-left: 20px;
+  height: 50px;
+}
+.login .loginBox .logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login .loginBox button {
+  border: none;
+  border-radius: 8%;
+  padding: 10px 10px;
+}
+
+.bg-dark * .navbar {
+  background-color: black;
+  color: #3e9f8e;
+  z-index: 3;
+  position: sticky;
+  top: 0;
+}
+.bg-dark * .navbar li {
+  list-style: none;
+  color: white;
+}
+.bg-dark * .navbar .nav-link {
+  color: white;
+  font-weight: 700px;
+  font-size: 20px;
+}
+.bg-dark * .img1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.bg-dark * .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-dark * .logoutt {
+  border: none;
+}
+.bg-dark * .btn-log {
+  text-decoration: none;
+  color: white;
+}
+.bg-dark * .btn-log:hover {
+  color: white;
+}
+
+.navbar {
+  background-color: white;
+  color: black;
+  z-index: 3;
+  position: sticky;
+  top: 0;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar .nav-link {
+  color: #3e9f8e !important;
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+.img1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoutt {
+  border: none;
+}
+
+.btn-log {
+  text-decoration: none;
+  color: white;
+}
+.btn-log:hover {
+  color: white;
+}
+
+.bg-dark * .luxi {
+  height: 400px;
+}
+.bg-dark * .brand {
+  color: #3e9f8e;
+  font-family: Marcellus;
+  font-weight: Jost;
+}
+.bg-dark * .instagram {
+  text-decoration: none;
+  color: #3e9f8e;
+}
+.bg-dark * .instagram:hover {
+  color: black;
+  transition: 0.5s all ease-in-out;
+}
+.bg-dark * .title-bot {
+  font-family: Jost;
+  font-weight: 400;
+  color: white;
+}
+
+.luxi {
+  height: 400px;
+}
+
+.brand {
+  color: #3e9f8e;
+  font-family: Marcellus;
+  font-weight: Jost;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #3e9f8e;
+}
+.instagram:hover {
+  color: black;
+  transition: 0.5s all ease-in-out;
+}
+
+.title-bot {
+  font-family: Jost;
+  font-weight: 400;
+  color: black;
+}
+
+.bg-dark * .yumru {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #3e9f8e !important;
+}
+.bg-dark * .text-color {
+  color: #3e9f8e !important;
+  cursor: pointer;
+}
+.bg-dark * .text-color:hover {
+  color: black;
+  transition: 1.1s all ease-in-out;
+}
+.bg-dark * .lead {
+  color: #ffffff;
+}
+.bg-dark * .bg-color {
+  background-color: black;
+  border: none;
+}
+.bg-dark * .bg-color:hover {
+  background-color: #3e9f8e;
+  transition: 0.2s all ease-in-out;
+}
+.bg-dark * .navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+.bg-dark * .navbar-brand:hover {
+  color: #3e9f8e;
+  transition: 1s all ease-in-out;
+}
+.bg-dark * .button-shop {
+  font-family: Jost;
+  display: inline-block;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  color: #ffffff;
+  background: #3e9f8e;
+  text-decoration: none;
+}
+.bg-dark * .button-shop:hover {
+  color: white;
+  background-color: black;
+}
+
+.yumru {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #3e9f8e !important;
+}
+
+.text-color {
+  color: #3e9f8e !important;
+  cursor: pointer;
+}
+.text-color:hover {
+  color: black;
+  transition: 1.1s all ease-in-out;
+}
+
+.lead {
+  color: black;
+}
+
+.bg-color {
+  background-color: black;
+  border: none;
+}
+.bg-color:hover {
+  background-color: #3e9f8e;
+  transition: 0.2s all ease-in-out;
+}
+
+.navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  color: #3e9f8e;
+  transition: 1s all ease-in-out;
+}
+
+.button-shop {
+  font-family: Jost;
+  display: inline-block;
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  color: #ffffff;
+  background: #3e9f8e;
+  text-decoration: none;
+}
+.button-shop:hover {
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

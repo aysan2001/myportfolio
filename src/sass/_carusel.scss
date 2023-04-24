@@ -1,0 +1,143 @@
+// .bg-color{
+//     // background-color: #3e9f8e !important;
+//     color: #3e9f8e !important;
+// }
+
+.bg-dark *{
+.yumru{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: #3e9f8e!important;
+}
+
+.text-color{
+  color: #3e9f8e !important;
+
+  cursor: pointer;
+  &:hover{
+    color: black;
+    transition: 1.1s all ease-in-out;
+  }
+}
+
+.lead{
+    color: #ffffff;
+}
+
+.bg-color{
+    background-color:black;
+   
+    border: none;
+  
+    &:hover{
+        background-color:#3e9f8e;
+        transition: 0.2s all ease-in-out;
+      
+       
+    }
+}
+
+
+.navbar-brand {
+    color: black ;
+    cursor: pointer;
+    &:hover{
+        color: #3e9f8e;
+        transition: 1s all ease-in-out;
+       
+    }
+}
+
+
+.button-shop {
+    font-family: Jost;
+    display: inline-block;
+    padding: 15px 30px;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .3s;
+    color: #ffffff;
+    background: #3e9f8e;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        background-color: black;
+    }
+}
+
+
+}
+
+
+// light
+
+
+    .yumru{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        background-color: #3e9f8e!important;
+    }
+    
+    .text-color{
+      color: #3e9f8e !important;
+    
+      cursor: pointer;
+      &:hover{
+        color: black;
+        transition: 1.1s all ease-in-out;
+      }
+    }
+
+    .lead{
+        color:black;
+    }
+    
+    .bg-color{
+        background-color:black;
+       
+        border: none;
+      
+        &:hover{
+            background-color:#3e9f8e;
+            transition: 0.2s all ease-in-out;
+          
+           
+        }
+    }
+    
+    
+    .navbar-brand {
+        color: black ;
+        cursor: pointer;
+        &:hover{
+            color: #3e9f8e;
+            transition: 1s all ease-in-out;
+           
+        }
+    }
+    
+    
+    .button-shop {
+        font-family: Jost;
+        display: inline-block;
+        padding: 15px 30px;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: all .3s;
+        color: #ffffff;
+        background: #3e9f8e;
+        text-decoration: none;
+        &:hover{
+            color: white;
+            background-color: black;
+        }
+    }
+    
+    
+  

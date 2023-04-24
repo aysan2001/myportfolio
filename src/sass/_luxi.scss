@@ -1,0 +1,69 @@
+.bg-dark *{
+
+    .luxi{
+        // width: 90%;
+        height: 400px;
+    
+        
+    }
+    // .luxi:hover{
+    
+    // }
+    
+    .brand{
+        color: #3e9f8e;
+        font-family:Marcellus;
+        font-weight: Jost;
+    }
+    
+    .instagram{
+        text-decoration: none;
+        color: #3e9f8e;
+        &:hover{
+            color: black;
+            transition: 0.5s all ease-in-out;
+        }
+    }
+
+    .title-bot {
+        font-family: Jost;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+
+
+
+// light
+.luxi{
+    // width: 90%;
+    height: 400px;
+
+    
+}
+// .luxi:hover{
+
+// }
+
+.brand{
+    color: #3e9f8e;
+    font-family:Marcellus;
+    font-weight: Jost;
+}
+
+.instagram{
+    text-decoration: none;
+    color: #3e9f8e;
+    &:hover{
+        color: black;
+        transition: 0.5s all ease-in-out;
+    }
+}
+
+.title-bot {
+    font-family: Jost;
+    font-weight: 400;
+    color: black;
+}
+
